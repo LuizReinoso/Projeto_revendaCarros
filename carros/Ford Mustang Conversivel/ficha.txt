@@ -1,0 +1,8 @@
+Nome: Ford Mustang
+Cor: Preto
+Ano: 2022
+KM: 25,145 km
+Transmissão: Automático
+Tipo de combustível: Híbrido
+Carroceria: Conversivel
+Valor: $ 19,000 USD
