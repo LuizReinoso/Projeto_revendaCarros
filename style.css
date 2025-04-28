@@ -3,8 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 * {
+<<<<<<< HEAD
     margin: 0; 
     padding: 0; 
+=======
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimentos */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     
 }
 
@@ -12,17 +17,26 @@
 
 header {
     background-color: #060606;
+<<<<<<< HEAD
     height: 300px; 
     width: 100%; 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
+=======
+    height: 300px; /* altura do HEADER */
+    width: 100%; /* pra não quebrar o site na mudança de tamanho da tela */
+    display: flex; /* adiciona display flex para alinhar a imagem ao lado direito */
+    justify-content: space-between; /* alinha a imagem ao lado direito e a outra no lado esquerdo*/
+    align-items: center; /* alinha as imagens verticalmente */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     
 }
 
 .farol-carro {
     margin: 0px;
     height: 100%;
+<<<<<<< HEAD
     width: auto; 
 }
 
@@ -32,6 +46,17 @@ header {
     z-index: 1;  /* Define a ordem de empilhamento do elemento, 1 significa que o elemento ficará acima de elementos com z-index menor */
     position: relative; /* Define que o elemento será posicionado de forma relativa ao seu posicionamento normal na página */
     left: -350px; 
+=======
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+.logo {
+    height: 500px; /* ALTURA da imagem */
+    width: 800; /* LARGURA da imagem */
+    z-index: 1; /* mantem o logo acima da IMAGEM do farol do carro */
+    position: relative; /* necessário para que o z-index funcione */
+    left: -350px; /* ajuste o valor para a posição desejada */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
 }
 
 
@@ -39,18 +64,29 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+<<<<<<< HEAD
     z-index: 1; 
     position: relative; 
+=======
+    z-index: 1; /* define a ordem de empilhamento como 1 */
+    position: relative; /* necessário para que o z-index funcione */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     justify-content: space-between;
 }
 
 nav ul {
+<<<<<<< HEAD
     position: relative; 
     left: -200px; 
+=======
+    position: relative; /* necessário para que o z-index funcione */
+    left: -200px; /* ajuste o valor para a posição desejada */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
 
 }
 
 nav ul li {
+<<<<<<< HEAD
     width: 70px;     
     height: 50px;    
 }
@@ -60,6 +96,17 @@ nav ul li img {
     height: 30px;    
     display: flex;
     flex-direction: row; 
+=======
+    width: 70px;     /* largura da tela */
+    height: 50px;    /* ALTURA da tela */
+}
+
+nav ul li img {
+    width: 30px;     /* LARGURA da img */
+    height: 30px;    /* ALTURA da img */
+    display: flex;
+    flex-direction: row; /* Define a direção do eixo principal do contêiner flexível como em linha horizontal (em linha) */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
 }
 
 
@@ -71,8 +118,13 @@ nav ul li a {
 }
 
 nav ul li a span {
+<<<<<<< HEAD
     margin-left: 10px; 
     font-size: 13px; 
+=======
+    margin-left: 10px; /* ajuste o valor para a posição desejada */
+    font-size: 13px; /* ajuste o tamanho da fonte */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     margin-top: 7px;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
@@ -107,7 +159,11 @@ nav ul li a span {
     max-width: 100%;
     display: grid;
     justify-content: center;
+<<<<<<< HEAD
     grid-template-columns: 380px 380px 380px; 
+=======
+    grid-template-columns: 380px 380px 380px; /*Make the grid smaller than the container*/
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     gap: 30px;
     background-image: url("./img/fundoGradeado.jpg") ;
     padding: 70px;
@@ -115,14 +171,25 @@ nav ul li a span {
 
 
 .grupo_cards .card {
+<<<<<<< HEAD
     position: relative; 
     height: 350px; 
     width: 350px; 
+=======
+    position: relative; /* Necessário para a posição absoluta das setas */
+    height: 350px; /* Altura do card */
+    width: 350px;  /* Largura do card */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     background: grey;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
+=======
+
+    
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
 }
 
 
@@ -170,9 +237,12 @@ nav ul li a span {
     margin-bottom: 5px;
 }
 
+<<<<<<< HEAD
 
 /* -------- muda o buttom ao passar o cursor ------ */
 
+=======
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
 .card button:hover {
     background: #26ed07;
     color: var(--blue);
@@ -182,6 +252,7 @@ nav ul li a span {
 
 .grupo_cards .card .arrow{
 
+<<<<<<< HEAD
     position: absolute; 
     top: 30%; /* Centraliza verticalmente */
     transform: translateY(-50%); 
@@ -197,6 +268,23 @@ nav ul li a span {
     transition: opacity 0.1s, background-color 0.1s; /* Transição suave */
     z-index: 1; /* Garante que fique acima da imagem */
     display: flex; 
+=======
+    position: absolute; /* Sobrepõe as setas à imagem */
+    top: 30%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta para que o centro da seta alinhe-se ao centro da imagem */
+    background-color: black; /* Fundo quase invisível */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px 10px; /* Reduz o tamanho do botão */
+    font-size: 10px; /* Diminui o tamanho da fonte das setas */
+    width: 10px; /* Define uma largura fixa pequena */
+    height: 1px; /* Define uma altura fixa pequena */
+    opacity: 0.5; /* Torna a seta quase invisível */
+    transition: opacity 0.1s, background-color 0.1s; /* Transição suave */
+    z-index: 1; /* Garante que fique acima da imagem */
+    display: flex; /* Centraliza o ícone da seta */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     align-items: center;
     justify-content: center;
 }
@@ -214,8 +302,13 @@ nav ul li a span {
 
 /* Efeito ao passar o mouse sobre as setas */
 .grupo_cards .card .arrow:hover {
+<<<<<<< HEAD
     opacity: 0.8; /* --------------- Aumenta a visibilidade da seta */
     background-color: black; /* -- Torna o fundo mais visível */
+=======
+    opacity: 0.8; /* Aumenta a visibilidade da seta */
+    background-color: black; /* Torna o fundo mais visível */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     color: #30bbfa;
 }
 
@@ -234,7 +327,11 @@ nav ul li a span {
     max-width: 100%;
     display: grid;
     justify-content: center;
+<<<<<<< HEAD
     grid-template-columns: 300px 300px 300px; 
+=======
+    grid-template-columns: 300px 300px 300px; /*Make the grid smaller than the container*/
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     gap: 20px;
     padding: 80px;
     
@@ -243,9 +340,15 @@ nav ul li a span {
 
 .bloco {
     color: #30bbfa;
+<<<<<<< HEAD
     text-align: center; 
     display: flex;
     align-items: center; 
+=======
+    text-align: center; /* Centraliza o texto horizontalmente */
+    display: flex;
+    align-items: center; /* alinha as imagens verticalmente */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     justify-content: center;
     padding: 10px;
 }
@@ -268,7 +371,11 @@ nav ul li a span {
 .footer .bloco a span {
     color: #30bbfa;
     margin-top: 5px;
+<<<<<<< HEAD
     font-size: 13px; 
+=======
+    font-size: 13px; /* ajuste o tamanho da fonte */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
     
 }
 
@@ -293,7 +400,11 @@ nav ul li a span {
 .footer .bloco a span {
     color: #30bbfa;
     margin-top: 5px;
+<<<<<<< HEAD
     font-size: 13px; 
+=======
+    font-size: 13px; /* ajuste o tamanho da fonte */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
 }
 /*-----------/\/\/\/\--------- parte do linkdin --------/\/\/\/\---------------*/
 
@@ -333,11 +444,19 @@ footer .footer .bloco ul li a {
     grid-row: 1 / span 1;
     padding: 10px;
     display: flex;
+<<<<<<< HEAD
     align-items: center; 
+=======
+    align-items: center; /* alinha as imagens verticalmente */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
 }
 
 .home img {
     height: 35px;
     width: 35px;
+<<<<<<< HEAD
     align-items: center; 
+=======
+    align-items: center; /* alinha as imagens verticalmente */
+>>>>>>> e298fe29cc8c15c44cc705886b7ca230b1dddb40
 }
