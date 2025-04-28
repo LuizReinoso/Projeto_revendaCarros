@@ -1,0 +1,8 @@
+Nome: Toyota Corolla Hybrid
+Cor: 2020
+Ano:  2020
+Km: 39,442 kms
+Transmissão: Automático
+Tipo de combustível: Híbrido
+Carroceria: Sedan
+Valor: $ 7,000 USD

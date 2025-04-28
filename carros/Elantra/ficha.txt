@@ -1,0 +1,20 @@
+Nome: Hyundai Elantra
+Cor: Preto
+Ano: 2019
+KM: 20,777 km
+Transmissão: Automático
+Tipo de combustível: Gasolina
+Carroceria: Sedan
+Valor: 17,000 
+
+
+Nome:
+Cor:
+Ano:
+KM:
+Transmissão:
+Tipo de combustível:
+Carroceria:
+Valor:
+
+

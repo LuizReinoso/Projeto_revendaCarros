@@ -1,0 +1,8 @@
+Nome: Ford F-150
+Cor: Prata
+Ano: 2018
+KM: 28.000 km
+Transmissão: Automático
+Tipo de combustível: Gasolina
+Carroceria: Pickup Truck
+Valor: $ 7,000 USD

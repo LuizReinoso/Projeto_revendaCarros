@@ -1,0 +1,8 @@
+Nome: Chevrolet Colorado
+Cor: Preto
+Ano: 2018
+KM: 40,567 km
+Transmissão: Automático
+Tipo de combustível: Diesel
+Carroceria: Pickup Truck 4X4
+Valor: $ 6,000 USD
