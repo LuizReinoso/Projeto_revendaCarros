@@ -7,7 +7,8 @@ const imagensCarros = {
     "Toyota Corolla Hybrid": [
         "carros/Corolla Hybrid/1_.jpg",
         "carros/Corolla Hybrid/2_.jpg"
-    ],
+        ]
+    ,
     "Hyundai Elantra": [
         "carros/Elantra/1_.jpg",
         "carros/Elantra/2_.jpg",
