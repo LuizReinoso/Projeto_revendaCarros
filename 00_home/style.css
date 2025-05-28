@@ -267,7 +267,11 @@ header .logo {
 
 @media(max-width: 1366px){
     .loja h2{
-        font-size: 22px;
+        font-size: 18px;
+    }
+
+    .loja{
+        padding: 65px 20px;
     }
 }
 
