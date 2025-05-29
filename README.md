@@ -38,7 +38,7 @@ Este projeto simula o site institucional de uma loja de revenda de carros. Ele f
    ```bash
    cd Projeto_revendaCarros
 
-3. Abra o index.html no seu navegador (./print_site.png)
+3. Abra o index.html no seu navegador
 
 ## 📸 Screenshot
 
