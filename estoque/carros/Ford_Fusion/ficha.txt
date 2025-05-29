@@ -1,0 +1,8 @@
+Nome: Ford Fusion
+Cor: Branco
+Ano:  2024
+KM: 20,851 km
+Transmissão: Automático
+Tipo de combustível: Híbrido
+Carroceria: Sedan
+Valor: $ 7,000 USD
