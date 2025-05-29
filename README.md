@@ -33,3 +33,13 @@ Este projeto simula o site institucional de uma loja de revenda de carros. Ele f
 1. Clone o repositório:
    ```bash
    git clone https://github.com/LuizReinoso/Projeto_revendaCarros.git
+
+2. Acesse a pasta: 
+   ```bash
+   cd Projeto_revendaCarros
+
+3. Abra o index.html no seu navegador (./print_site.png)
+
+## 📸 Screenshot
+
+![Print da Home](./print_site.png)
